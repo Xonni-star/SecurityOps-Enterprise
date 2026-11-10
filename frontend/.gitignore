@@ -1,0 +1,39 @@
+# Security & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+
+# Backups & Database Dumps
+backups/
+*.dump
+*.dump.gz
+*.pgdump
+*.sql.gz
+
+# Node / React
+node_modules/
+dist/
+build/
+.npm
+.cache
+
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
